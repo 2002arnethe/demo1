@@ -116,4 +116,5 @@ subset = df[cols_box].fillna(0)
 subset_plot = subset.head(25)
 # Streamlit no tiene boxplot nativo, así que mostramos estadísticas resumen en tabla
 st.write("Resumen estadístico (simulación de boxplot):")
-st.dataframe(subset_plot.describe().T)
+st.dataframe(subset_plot.describe().T)  
+#hola
